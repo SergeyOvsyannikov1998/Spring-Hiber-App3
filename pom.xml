@@ -20,6 +20,13 @@
   </properties>
 
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp -->
+    <dependency>
+      <groupId>commons-dbcp</groupId>
+      <artifactId>commons-dbcp</artifactId>
+      <version>1.4</version>
+    </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
     <dependency>
       <groupId>org.springframework</groupId>
@@ -34,6 +41,16 @@
       <artifactId>javax.servlet-api</artifactId>
       <version>4.0.1</version>
       <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>5.3.9</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-orm</artifactId>
+      <version>5.3.9</version>
     </dependency>
 
 
@@ -50,6 +67,13 @@
       <artifactId>hibernate-core</artifactId>
       <version>5.5.5.Final</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-entitymanager</artifactId>
+      <version>5.5.5.Final</version>
+    </dependency>
+
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
     <dependency>
       <groupId>mysql</groupId>
